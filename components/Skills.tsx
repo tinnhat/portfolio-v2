@@ -1,34 +1,96 @@
 export default function Skills() {
-    return (
-      <section id="skills" className="scroll-mt-16">
-        <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-          <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">
-            About
-          </h2>
+  return (
+    <section id="skills" className="scroll-mt-16">
+      <div className="my-[12rem] md:my-[8rem] sm:my-[6rem]">
+        <div className="flex gap-4 flex-wrap items-center justify-center">
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-html5-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">HTML5</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-css3-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">CSS3</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-sass-original colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">SASS</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-javascript-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">JavaScript</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-typescript-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">TypeScript</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-bootstrap-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Bootstrap</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-tailwindcss-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Tailwind</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-photoshop-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Photoshop</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-figma-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Figma</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-react-original colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">ReactJS</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-redux-original colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Redux</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-ubuntu-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Ubuntu</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-azure-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Azure</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-git-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Git</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-mongodb-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">MongoDB</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-microsoftsqlserver-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">MS SQL</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-nextjs-original-wordmark colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">NextJS</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-nestjs-original colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">NestJS</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-oracle-original colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Oracle</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-express-original colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">ExpressJS</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-axios-plain-wordmark colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Axios</p>
+          </div>
+          
         </div>
-        <div className="flex flex-col gap-4">
-          <p className="text-start text-muted-foreground lg:px-6">
-            I am a <span className="text-white">Frontend Developer</span> with 2
-            years of experience in web development. I thrive on staying up-to-date
-            with the latest technologies and continuously improving my technical
-            and soft skills to enhance work performance.
-          </p>
-          <p className="text-start  text-muted-foreground lg:px-6">
-            I love to discover and learn new technology and i have a good command
-            of building web application using{' '}
-            <span className="text-white">ReactJs</span>
-            ,Able to work in a dynamic and ever-changing industry
-          </p>
-          <p className="text-start text-muted-foreground lg:px-6">
-            Currently, i am learning about{' '}
-            <span className="text-white">NextJS/NestJS</span> to expand my
-            knowledge about <span className="text-white">web development</span>{' '}
-            and also i am looking forward to new opportunities to become a 
-            {' '}<span className="text-white">full-stack</span> developer, focusing on
-            optimizing performance and improving user experiences.
-          </p>
-        </div>
-      </section>
-    )
-  }
-  
+        <div className="slider-container w-[86%] mx-auto mt-16"></div>
+      </div>
+    </section>
+  )
+}

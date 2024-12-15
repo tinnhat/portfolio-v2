@@ -1,5 +1,5 @@
-import { Mail } from "lucide-react";
-import { Button } from "./ui/button";
+import { Mail } from 'lucide-react'
+import { Button } from './ui/button'
 
 export default function Contact() {
   return (
@@ -14,7 +14,10 @@ export default function Contact() {
           Get In Touch
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          Contact with me
+          Contact with me or{' '}
+          <span className="text-primary cursor-pointer">
+            <a download="NguyenNhatTin-FE.pdf" href="/NguyenNhatTin.pdf">Download my CV</a>
+          </span>
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
@@ -24,7 +27,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="hover:cursor-pointer w-full"
         >
-          <Button variant={"default"} className="w-full h-full">
+          <Button variant={'default'} className="w-full h-full">
             <div className="flex flex-row items-center">
               <Mail className="dark:text-white text-muted h-6 w-6" />
               <p className="ml-3 text-2xl dark:text-white text-muted">
@@ -35,5 +38,5 @@ export default function Contact() {
         </a>
       </div>
     </section>
-  );
+  )
 }

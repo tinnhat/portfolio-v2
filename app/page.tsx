@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-css-tags */
 'use client'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
@@ -9,6 +10,7 @@ import Skills from '@/components/Skills'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import { useEffect, useRef } from 'react'
+import 'devicon/devicon.min.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -30,6 +32,7 @@ export default function Home() {
   return (
     <main>
       <Head>
+        <link rel="stylesheet" href="devicon.min.css" />
         <style jsx global>{`
           body {
             font-family: '${inter.style.fontFamily}';
