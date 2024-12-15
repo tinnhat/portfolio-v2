@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   keywords:
     "Nguyen Nhat Tin, Frontend Developer, Frontend Development",
   openGraph: {
-    locale: "en_US",
-    siteName: "Nguyen Nhat Ti",
+    locale: "vi_VN",
+    siteName: "Nguyen Nhat Tin",
     type: "website",
     title: "Nguyen Nhat Tin",
     description:
