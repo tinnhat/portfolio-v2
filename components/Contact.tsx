@@ -16,7 +16,7 @@ export default function Contact() {
         <p className="lg:text-lg lg:text-start text-muted-foreground">
           Contact with me or{' '}
           <span className="text-primary cursor-pointer">
-            <a download="NguyenNhatTin-FE.pdf" href="/NguyenNhatTin.pdf">Download my CV</a>
+            <a download="NguyenNhatTin.pdf" href="/NguyenNhatTin.pdf">Download my CV</a>
           </span>
         </p>
       </div>
