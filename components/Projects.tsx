@@ -35,7 +35,7 @@ const jobProjects = [
     description: 'Pet project to learning new drag and drop libraries',
     skills: ['ReactJS', 'Typescript', 'MUI', 'HTML/CSS', 'DnD kit', 'Vercel'],
     link: 'https://todo-list-two-rho-34.vercel.app/',
-    gitHubLink: 'https://github.com/tinnhat/organick-fullstack',
+    gitHubLink: 'https://github.com/tinnhat/todo-list',
   },
   {
     imagePath: '/movie.png',

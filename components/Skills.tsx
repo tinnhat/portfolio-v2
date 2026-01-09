@@ -87,6 +87,18 @@ export default function Skills() {
             <i className="devicon-axios-plain-wordmark colored text-[60px] mb-1"></i>
             <p className="text-[24px]">Axios</p>
           </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-graphql-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">GraphQL</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-jest-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Jest</p>
+          </div>
+          <div className="w-36 flex flex-col items-center">
+            <i className="devicon-vitest-plain colored text-[60px] mb-1"></i>
+            <p className="text-[24px]">Vitest</p>
+          </div>
           
         </div>
         <div className="slider-container w-[86%] mx-auto mt-16"></div>
