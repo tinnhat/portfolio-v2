@@ -10,7 +10,26 @@ import { Badge } from '@/components/ui/badge'
 
 const jobPositions = [
   {
-    timeline: 'May 2024 — Present',
+    timeline: 'Feb 2025 — Present',
+    currentPosition: 'Web Developer',
+    place: 'SolarBK',
+    previousPositions: [''],
+    description:
+      'Developing internal software for SolarBK’s core teams, including task management and sales dashboards. Building data-driven features, interactive charts, and workflow visualizations using React Flow. Integrating REST APIs and improving UI/UX with reusable components and responsive layouts to support daily business operations.',
+    skills: [
+      'JavaScript',
+      'CSS',
+      'Tailwind CSS',
+      'Ant Design',
+      'HTML',
+      'React',
+      'Redux/Redux Toolkit',
+      'Odoo',
+      'Python',
+    ],
+  },
+  {
+    timeline: 'May 2024 — Jan 2025',
     currentPosition: 'Frontend Developer',
     place: 'Nhi Dong 315',
     previousPositions: [''],
@@ -83,36 +102,34 @@ const jobPositions = [
 
 export default function ExpCard() {
   return (
-    <section id="experience" className="scroll-mt-16 lg:pt-16">
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="text-sm font-bold uppercase tracking-widest lg:sr-only">
-          Experience
-        </h2>
+    <section id='experience' className='scroll-mt-16 lg:pt-16'>
+      <div className='sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/0 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0'>
+        <h2 className='text-sm font-bold uppercase tracking-widest lg:sr-only'>Experience</h2>
       </div>
       <>
         {jobPositions.map((job, index) => (
           <Card
             key={index}
-            className="lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
+            className='lg:p-6 mb-4 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200'
           >
-            <CardHeader className="h-full w-full p-0">
-              <CardTitle className="text-base text-slate-400 whitespace-nowrap">
+            <CardHeader className='h-full w-full p-0'>
+              <CardTitle className='text-base text-slate-400 whitespace-nowrap'>
                 {job.timeline}
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex flex-col p-0">
-              <p className="text-foreground font-bold">
+            <CardContent className='flex flex-col p-0'>
+              <p className='text-foreground font-bold'>
                 {job.currentPosition} • {job.place}
               </p>
               {job.previousPositions.map((position, index) => (
-                <p key={index} className="text-slate-400 text-sm font-bold">
+                <p key={index} className='text-slate-400 text-sm font-bold'>
                   {position}
                 </p>
               ))}
-              <CardDescription className="py-3 text-muted-foreground">
+              <CardDescription className='py-3 text-muted-foreground'>
                 {job.description}
               </CardDescription>
-              <CardFooter className="p-0 flex flex-wrap gap-2">
+              <CardFooter className='p-0 flex flex-wrap gap-2'>
                 {job.skills.map((skill, index) => (
                   <Badge key={index}>{skill}</Badge>
                 ))}
